@@ -33,7 +33,7 @@ export default function FunctionTimer() {
   return (
     <React.Fragment>
       <h1>Functional Component</h1>
-      <h3>Counting every seconds : {seconds}</h3>
+      <h3>Counting seconds : {seconds}</h3>
       <br />
       {/* eslint-disable-next-line */}
       <a

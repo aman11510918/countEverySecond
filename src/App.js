@@ -1,5 +1,6 @@
 import "./App.css";
 import ClassTimer from "./components/ClassTimer/ClassTimer";
+import CountSecond from "./components/CountSecond/CountSecond";
 import FunctionTimer from "./components/FunctionTimer/FunctionTimer";
 
 function App() {
@@ -7,13 +8,10 @@ function App() {
     <div className="App">
       <FunctionTimer />
       <span />
-      <hr
-        style={{
-          marginTop: "70px",
-          marginBottom: "60px",
-        }}
-      />
+      <hr />
       <ClassTimer />
+      <hr />
+      <CountSecond />
     </div>
   );
 }

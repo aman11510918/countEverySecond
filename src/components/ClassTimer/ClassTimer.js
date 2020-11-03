@@ -43,7 +43,7 @@ export default class ClassTimer extends Component {
     return (
       <React.Fragment>
         <h1>Class component</h1>
-        <h3>Counting every second : {this.state.second}</h3>
+        <h3>Counting second : {this.state.second}</h3>
         <br />
         {/* eslint-disable-next-line */}
         <a
